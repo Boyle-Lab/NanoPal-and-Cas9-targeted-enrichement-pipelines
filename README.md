@@ -50,6 +50,6 @@ Requires:
 ```
 ## Contact:
 ```
-for Nano-Pal arthurz@umich.edu
+for Nano-Pal arthurz@umich.edu @github/weichenzhou
 for cleavage-site anlaysis castrocp@umich.edu
 ```
