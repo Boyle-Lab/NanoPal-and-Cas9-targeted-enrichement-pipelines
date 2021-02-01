@@ -48,7 +48,6 @@ Requires:
  minimap2 https://github.com/lh3/minimap2
 
 ```
-
 Contact:
 ```
 for Nano-Pal arthurz@umich.edu
