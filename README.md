@@ -2,7 +2,8 @@
 
 ## Guide RNA cleavage-site analysis
 
-Run scp/MEI_ONTreads_alignment.py, accepts mobile element names: L1HS, AluYa5, AluYb8, SVA_E, SVA_F
+Run `MEI_ONTreads_alignment.py` to perform alignments.  
+Accepted mobile element names: L1HS, AluYa5, AluYb8, SVA_E, SVA_F
 ```
 MEI_ONTreads_alignment.py {mobileElementName} {mobileElementSeq.fasta} {long_reads_input_file.fasta} {outfile.txt}
 ```

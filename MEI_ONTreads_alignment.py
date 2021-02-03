@@ -60,9 +60,9 @@ aligner.mismatch_score = -5
 aligner.open_gap_score = -10
 aligner.extend_gap_score = -5
 
-##############################
-# Align reads to L1 sequence #
-##############################
+###########################################
+# Align reads to mobiole element sequence #
+###########################################
 with open(outfile, "w") as results_out:
     i = 1 # Keep track of how many reads have been processed
     
