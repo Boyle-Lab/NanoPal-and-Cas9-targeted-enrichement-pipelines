@@ -52,6 +52,7 @@ Requires:
 ## Guide RNA design pipeline
 
 We have included three bash files for guide RNA design: bash.alu.sh, bash.line1.sh bash.sva.sh in the RNA.design.pipelines folder. 
+
 We also included the consensus sequences for different categories of mobile elements used for the design in the lib folder.
 
 Requires:
