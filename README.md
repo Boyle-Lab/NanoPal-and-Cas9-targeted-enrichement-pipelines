@@ -46,10 +46,31 @@ Requires:
  ncbi-blast++/2.10.0  ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/
  PALMER https://github.com/mills-lab/PALMER
  minimap2 https://github.com/lh3/minimap2
-
 ```
+
+## Guide RNA design pipeline
+
+We have included three bash files for guide RNA design: bash.alu.sh, bash.line1.sh bash.sva.sh in the RNA.design.pipelines folder. We also included the consensus sequences for different categories of mobile elements used for the design in the lib folder.
+
+Requires:
+```
+ jellyfish/2.2.8
+```
+
+## Citation
+
+* Torrin L. McDonald*,  Weichen Zhou*,  Christopher Castro,  Camille Mumm,  Jessica A. Switzenberg,  Ryan E. Mills,  Alan P. Boyle,
+[Cas9 targeted enrichment of mobile elements using nanopore sequencing](https://www.biorxiv.org/content/10.1101/2021.02.10.430605v1), 
+bioRxiv, 2021, `https://doi.org/10.1101/2021.02.10.430605`
+
+For PALMER:
+* Weichen Zhou, Sarah B Emery, Diane A Flasch, Yifan Wang, Kenneth Y Kwan, Jeffrey M Kidd, John V Moran, Ryan E Mills,
+[Identification and characterization of occult human-specific LINE-1 insertions using long-read sequencing technology](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1173/5680708), 
+Nucleic Acids Research, 2019, gkz1173, `https://doi.org/10.1093/nar/gkz1173`
+
+
 Contact:
 ```
-for Nano-Pal arthurz@umich.edu
+for Nano-Pal and RNA design arthurz@umich.edu
 for cleavage-site anlaysis castrocp@umich.edu
 ```
