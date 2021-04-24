@@ -2,7 +2,8 @@
 
 ## Guide RNA cleavage-site analysis
 
-Run scp/MEI_ONTreads_alignment.py, accepts mobile element names: L1HS, AluYa5, AluYb8, SVA_E, SVA_F
+Run `MEI_ONTreads_alignment.py` to perform alignments.  
+Accepted mobile element names: L1HS, AluYa5, AluYb8, SVA_E, SVA_F
 ```
 MEI_ONTreads_alignment.py {mobileElementName} {mobileElementSeq.fasta} {long_reads_input_file.fasta} {outfile.txt}
 ```
@@ -68,9 +69,8 @@ For PALMER:
 [Identification and characterization of occult human-specific LINE-1 insertions using long-read sequencing technology](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1173/5680708), 
 Nucleic Acids Research, 2019, gkz1173, `https://doi.org/10.1093/nar/gkz1173`
 
+## Contact:
 
-Contact:
-```
-for Nano-Pal and RNA design arthurz@umich.edu
-for cleavage-site anlaysis castrocp@umich.edu
-```
+for Nano-Pal arthurz@umich.edu or https://github.com/WeichenZhou
+
+for cleavage-site anlaysis castrocp@umich.edu or https://github.com/castrocp
