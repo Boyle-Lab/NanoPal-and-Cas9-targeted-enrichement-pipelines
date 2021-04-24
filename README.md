@@ -51,7 +51,8 @@ Requires:
 
 ## Guide RNA design pipeline
 
-We have included three bash files for guide RNA design: bash.alu.sh, bash.line1.sh bash.sva.sh in the RNA.design.pipelines folder. We also included the consensus sequences for different categories of mobile elements used for the design in the lib folder.
+We have included three bash files for guide RNA design: bash.alu.sh, bash.line1.sh bash.sva.sh in the RNA.design.pipelines folder. 
+We also included the consensus sequences for different categories of mobile elements used for the design in the lib folder.
 
 Requires:
 ```
@@ -71,6 +72,6 @@ Nucleic Acids Research, 2019, gkz1173, `https://doi.org/10.1093/nar/gkz1173`
 
 ## Contact:
 
-for Nano-Pal arthurz@umich.edu or https://github.com/WeichenZhou
+for Nano-Pal and guide RNA design arthurz@umich.edu or https://github.com/WeichenZhou
 
 for cleavage-site anlaysis castrocp@umich.edu or https://github.com/castrocp
