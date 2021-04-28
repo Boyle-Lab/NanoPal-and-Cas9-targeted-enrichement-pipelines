@@ -60,6 +60,16 @@ Requires:
  jellyfish/2.2.8
 ```
 
+## L1Hs methylation analysis pipeline
+
+We have included two scripts for L1Hs methylation analysis: `non_ref_pipeline.sh` and `reference_piepline.sh` in the `Methylation.pipelines` folder. 
+
+Requires:
+```
+ nanopolish https://github.com/jts/nanopolish
+ methylartist https://github.com/adamewing/methylartist
+```
+
 ## Citation
 
 * Torrin L. McDonald*,  Weichen Zhou*,  Christopher Castro,  Camille Mumm,  Jessica A. Switzenberg,  Ryan E. Mills,  Alan P. Boyle,
@@ -73,6 +83,8 @@ Nucleic Acids Research, 2019, gkz1173, `https://doi.org/10.1093/nar/gkz1173`
 
 ## Contact:
 
-for Nano-Pal and guide RNA design arthurz@umich.edu or https://github.com/WeichenZhou
+for Nano-Pal and others: arthurz@umich.edu or https://github.com/WeichenZhou
 
-for cleavage-site anlaysis castrocp@umich.edu or https://github.com/castrocp
+for cleavage-site anlaysis: castrocp@umich.edu or https://github.com/castrocp
+
+for methylation analysis: crmumm@umich.edu or https://github.com/crmumm
