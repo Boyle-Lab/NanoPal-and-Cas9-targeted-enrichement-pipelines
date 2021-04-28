@@ -60,7 +60,7 @@ import sys
 import Bio
 ```
 
-## L1Hs methylation analysis pipeline
+## L1Hs methylation analysis
 
 We have included two scripts for L1Hs methylation analysis: `non_ref_pipeline.sh` and `reference_piepline.sh` in the `Methylation.pipelines` folder. 
 
