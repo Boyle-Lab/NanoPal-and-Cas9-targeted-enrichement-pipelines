@@ -56,8 +56,8 @@ MEI_ONTreads_alignment.py {mobileElementName} {mobileElementSeq.fasta} {long_rea
 
 Requires: 
 ```
-import sys 
-import Bio
+ import sys 
+ import Bio
 ```
 
 ## L1Hs methylation analysis
