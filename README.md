@@ -73,13 +73,13 @@ Requires:
 ## Citation
 
 * Torrin L. McDonald*,  Weichen Zhou*,  Christopher Castro,  Camille Mumm,  Jessica A. Switzenberg,  Ryan E. Mills,  Alan P. Boyle,
-[Cas9 targeted enrichment of mobile elements using nanopore sequencing](https://www.biorxiv.org/content/10.1101/2021.02.10.430605v1), 
-bioRxiv, 2021, `https://doi.org/10.1101/2021.02.10.430605`
+[Cas9 targeted enrichment of mobile elements using nanopore sequencing](https://www.nature.com/articles/s41467-021-23918-y), 
+Nature Communications, 2021, `https://doi.org/10.1038/s41467-021-23918-y`
 
 For PALMER:
 * Weichen Zhou, Sarah B Emery, Diane A Flasch, Yifan Wang, Kenneth Y Kwan, Jeffrey M Kidd, John V Moran, Ryan E Mills,
 [Identification and characterization of occult human-specific LINE-1 insertions using long-read sequencing technology](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz1173/5680708), 
-Nucleic Acids Research, 2019, gkz1173, `https://doi.org/10.1093/nar/gkz1173`
+Nucleic Acids Research, 2019, `https://doi.org/10.1093/nar/gkz1173`
 
 ## Contact:
 
