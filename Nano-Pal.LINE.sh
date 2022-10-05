@@ -386,7 +386,7 @@ echo There are ${SIGNAL1} reads caputuring putative L1 signals on one end.
 echo There are ${SIGNAL2} reads caputuring putative L1 signals on both ends.
 echo There are ${FAIL} reads having no putative L1 signals.
 
-less inter.2/p.txt.fi | awk '{sum+=$1} END {print "Non-reference L1Hs sum = ", sum}'
+less inter.2/p.txt.fi | awk '{sum+=$1} END {print "Non-reference L1Hs                                                                                                                                                                                                                                                         sum = ", sum}'
 less inter.2/r.l1hs.txt.fi | awk '{sum+=$1} END {print "Reference L1Hs sum = ", sum}'
 less inter.2/r.l1pa.txt.fi | awk '{sum+=$1} END {print "Reference L1PA sum = ", sum}'
 less inter.2/r.l1.txt.fi | awk '{sum+=$1} END {print "Other reference L1 sum = ", sum}'
@@ -395,13 +395,13 @@ echo "Number of non_LINE-1 reads"
 less capture.loci.r.l1non | wc -l | awk '{print $1}'
 
 
-echo "Number of non-reference LINE-1 and the file (number of suppoting reads + coordinate + overlap information)"
+echo "Number of non-reference LINE-1 and the file (including number of supporting reads + coordinate + overlap information)"
 wc -l inter.2/p.txt.fi
-echo "Number of reference L1Hs and the file (number of suppoting reads + coordinate)"
+echo "Number of reference L1Hs and the file (including number of supporting reads + coordinate)"
 wc -l inter.2/r.l1hs.txt.fi
-echo "Number of reference L1PA and the file (number of suppoting reads + coordinate)"
+echo "Number of reference L1PA and the file (including number of supporting reads + coordinate)"
 wc -l inter.2/r.l1pa.txt.fi
-echo "Number of other reference L1 and the file (number of suppoting reads + coordinate)"
+echo "Number of other reference L1 and the file (including number of supporting reads + coordinate)"
 wc -l inter.2/r.l1.txt.fi
-echo "Number of potential specific non-reference L1Hs and the file (coordinate + number of suppoting reads + number of left suppoting reads + number of right suppoting reads + strand)"
+echo "Number of potential specific non-reference L1Hs and the file (including coordinate + number of supporting reads + number of left suppoting reads + number of right supporting reads + strand)"
 wc -l potential.clustered.txt.fi
