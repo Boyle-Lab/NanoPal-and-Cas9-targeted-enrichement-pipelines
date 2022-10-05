@@ -391,11 +391,11 @@ less inter.2/r.l1hs.txt.fi | awk '{sum+=$1} END {print "Reference L1Hs sum = ", 
 less inter.2/r.l1pa.txt.fi | awk '{sum+=$1} END {print "Reference L1PA sum = ", sum}'
 less inter.2/r.l1.txt.fi | awk '{sum+=$1} END {print "Other reference L1 sum = ", sum}'
 less potential.clustered.txt.fi | awk '{sum+=$4} END {print "Potential non-reference L1Hs sum = ", sum}'
-echo "Number of non_SVA reads"
+echo "Number of non_LINE-1 reads"
 less capture.loci.r.l1non | wc -l | awk '{print $1}'
 
 
-echo "Number of non-reference SVA and the file (number of suppoting reads + coordinate + overlap information)"
+echo "Number of non-reference LINE-1 and the file (number of suppoting reads + coordinate + overlap information)"
 wc -l inter.2/p.txt.fi
 echo "Number of reference L1Hs and the file (number of suppoting reads + coordinate)"
 wc -l inter.2/r.l1hs.txt.fi
