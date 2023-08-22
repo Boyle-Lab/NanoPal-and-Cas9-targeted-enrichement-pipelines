@@ -144,7 +144,7 @@ echo ${len} >> read.length.txt
 cat blastn/${t}.blastn.txt | grep -v "#"  | awk 'BEGIN{flag=0}{if($5>227&&($6<100||$7<100)&&($6<$7)) flag+=1} END{if(flag>=1) print "1";else print "0"}' >> 5.plus.txt 
 cat blastn/${t}.blastn.txt | grep -v "#"  | awk 'BEGIN{flag=0}{if($5>227&&($6<100||$7<100)&&($6>$7)) flag+=1} END{if(flag>=1) print "1";else print "0"}' >> 5.minus.txt 
 cat blastn/${t}.blastn.txt | grep -v "#"  | awk 'BEGIN{flag=0}{if($5>227&&($6>'$len_fix'||$7>'$len_fix')&&($6<$7)) flag+=1} END{if(flag>=1) print "1";else print "0"}' >> 3.plus.txt 
-cat blastn/${t}.blastn.txt | grep -v "#"  | awk 'BEGIN{flag=0}{if($5>2275&&($6>'$len_fix'||$7>'$len_fix')&&($6>$7)) flag+=1} END{if(flag>=1) print "1";else print "0"}' >> 3.minus.txt 
+cat blastn/${t}.blastn.txt | grep -v "#"  | awk 'BEGIN{flag=0}{if($5>227&&($6>'$len_fix'||$7>'$len_fix')&&($6>$7)) flag+=1} END{if(flag>=1) print "1";else print "0"}' >> 3.minus.txt 
 
 wait
 done
